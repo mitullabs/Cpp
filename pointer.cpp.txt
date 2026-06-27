@@ -1,0 +1,19 @@
+/*C++ Program to demonstrate pointer*/
+#include <iostream>
+using namespace std;
+
+void pointerdemo()
+{
+    int var=20;
+    int *ptr;
+    ptr=&var;
+    cout<<"Value of ptr = "<<ptr<<"\n";
+    cout<<"Value of var = "<<var<<"\n";
+    cout<<"Value of *ptr = "<<*ptr<<"\n";
+}
+
+int main() 
+{
+    pointerdemo();
+    return 0;
+}

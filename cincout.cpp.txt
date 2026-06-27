@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main() 
+{
+    int i;
+    cout<<"\nEnter a number :";
+    cin>>i;
+    cout<<"\nThe number you entered is "<<i;
+    cout<<"\n\nThe multiplication of the number is "<<i*i;
+    return 0;
+}

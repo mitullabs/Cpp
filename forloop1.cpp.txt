@@ -1,0 +1,16 @@
+/*C++ program to illustrate for loop to print numbers 
+from n to 1 (reverse counting)*/
+  
+#include <iostream> 
+using namespace std; 
+  
+int main() 
+{ 
+    int n = 10; 
+    int i; 
+    for (i = n; i >= 1; i--) 
+    { 
+        cout << i << " "; 
+    } 
+return 0; 
+}

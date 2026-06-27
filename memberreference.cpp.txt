@@ -1,0 +1,17 @@
+/*Program to demonstrate member referencing 
+and dereferencing operator*/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int  n= 15;
+    int  *ptr;
+    ptr=&n;           //referencing operator
+    cout<<"\nAddress of n = "<<&n;
+    cout<<"\nValue in variable ptr = "<< ptr;
+    cout<<"\nValue of n ="<<n;
+    cout<<"\nValue using dereferencing operator= "<<*ptr;  
+}
+
+

@@ -1,0 +1,19 @@
+/* Program to check whether the given number is less than 20*/
+#include <iostream>
+using namespace std;
+ 
+int main() 
+{
+   int a;
+   cout<<"Enter a number : ";
+   cin>>a;
+   if( a < 20 ) 
+   {
+      cout << "The number is less than 20" << endl;
+   }
+   cout << "The number you entered : " << a << endl;
+   return 0;
+}
+
+
+
